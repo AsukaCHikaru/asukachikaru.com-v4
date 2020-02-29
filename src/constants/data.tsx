@@ -1,4 +1,10 @@
-import { Portfolio, Contact } from "./types";
+import { About, Portfolio, Contact } from "./types";
+
+export const about: About = {
+  name: "Asuka Wang",
+  location: "Fukuoka, Japan",
+  desc: "Front-end developer"
+}
 
 export const portfolios: Portfolio[] = [
   {
@@ -36,7 +42,7 @@ export const portfolios: Portfolio[] = [
   }
 ];
 
-export const tags: string[] = [
+export const passions: string[] = [
   "building stuff",
   "esports",
   "game design",
@@ -45,7 +51,7 @@ export const tags: string[] = [
   "language learning (Spanish, Dutch)",
   "music (Hip-hop, EDM)",
   "web development"
-]
+];
 
 export const contacts: Contact[] = [
   { name: "blog", url: "https://blog.asukachikaru.com" },

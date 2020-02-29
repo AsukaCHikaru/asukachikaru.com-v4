@@ -1,3 +1,9 @@
+export type About = {
+  name: string;
+  location: string;
+  desc: string;
+};
+
 export type Portfolio = {
   title: string;
   href: string;
@@ -8,6 +14,6 @@ export type Portfolio = {
 };
 
 export type Contact = {
-  name: string,
-  url: string
+  name: string;
+  url: string;
 };
