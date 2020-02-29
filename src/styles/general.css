@@ -4,15 +4,20 @@ body,
 html {
   background-color: #eee;
   font-family: "Noto Serif JP", serif;
-  margin: auto;
-  max-width: 900px;
+}
+#root{
+  margin: 2em auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 850px;
+  min-height: calc(100vh - 4em);
 }
 ul{
   list-style-type: square;
 }
 .about--title{
-  margin-bottom: 0;
-  font-size: 3.5em;
+  margin: 0;
+  font-size: 3em;
 }
 .about--desc{
   margin: 0.5em 0;
@@ -73,4 +78,7 @@ ul{
   font-size: 1em;
   line-height: 1em;
   color: #444;
+}
+footer{
+  margin: auto auto 0 auto;
 }

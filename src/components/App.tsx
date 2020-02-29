@@ -1,11 +1,12 @@
 import React from "react";
+import "../styles/general.css";
 import Section from "./SectionLayout";
 import PassionList from "./PassionList";
-import "../styles/general.css";
 import { portfolios, contacts, passions, about } from "../constants/data";
 import PortfolioList from "./PortfolioList";
 import AboutLayout from "./AboutLayout";
 import ContactList from "./ContactList";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Section title="Portfolios">
         <PortfolioList portfolios={portfolios} />
       </Section>
+      <Footer />
     </>
   );
 }

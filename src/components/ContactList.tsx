@@ -8,7 +8,7 @@ type Props = {
 
 const ContactList = (props: Props) => {
   return (
-    <>
+    <div className="contact">
       {props.contacts.map((contact: Contact, i) => (
         <ContactItem
           url={contact.url}
@@ -16,7 +16,7 @@ const ContactList = (props: Props) => {
           key={`contact-item-${i}`}
         />
       ))}
-    </>
+    </div>
   );
 };
 
