@@ -6,9 +6,11 @@ type Props = {
 
 const passionList = (props: Props) => {
   return (
-    <ul>
+    <ul className="passion--list">
       {props.passions.map((passion: string, i) => (
-        <li key={`passion-item-${i}`}>{passion}</li>
+        <li className="passion--item" key={`passion-item-${i}`}>
+          {passion}
+        </li>
       ))}
     </ul>
   );
