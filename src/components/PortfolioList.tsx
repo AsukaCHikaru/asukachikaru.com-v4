@@ -8,12 +8,12 @@ type Props = {
 
 const PortfolioList = (props: Props) => {
   return (
-    <ul>
-      {props.portfolios.map((portfolio: Portfolio, i) => (
+    <ul className="portfolio--ul">
+      {props.portfolios.reverse().map((portfolio: Portfolio, i) => (
         <PortfolioItem
-          title={portfolio.title}
-          url={portfolio.href}
+          portfolio={portfolio}
           key={`portfolio-item-${i}`}
+          index={i}
         />
       ))}
     </ul>

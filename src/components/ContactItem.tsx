@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "./Link";
 
 type Props = {
   url: string;
@@ -7,14 +8,9 @@ type Props = {
 
 const ContactItem = (props: Props) => {
   return (
-    <a
-      href={props.url}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="contact--link"
-    >
+    <Link url={props.url} className="contact--item">
       {props.name.toUpperCase()}
-    </a>
+    </Link>
   );
 };
 

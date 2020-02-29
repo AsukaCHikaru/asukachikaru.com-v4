@@ -9,35 +9,36 @@ export const about: About = {
 export const portfolios: Portfolio[] = [
   {
     title: "CHIKA Music Awards 2018",
-    href: "http://2018.chikamusicawards.asukachikaru.com",
-    description:
+    url: "http://2018.chikamusicawards.asukachikaru.com",
+    repo: "",
+    desc:
       "Exclusive site for my personal annual music awards, as rewind of my favorite music of the year.",
-    builtWith: ["React"],
+    dependencies: ["React"],
     time: "2018"
   },
   {
     title: "The work is undone.",
-    href: "https://blog.asukachikaru.com",
+    url: "https://blog.asukachikaru.com",
     repo: "https://github.com/AsukaCHikaru/blog",
-    description: "My blog. Handmade, 0 blog host service or template used.",
-    builtWith: ["Gatsby"],
+    desc: "My blog. Handmade, 0 blog host service or template used.",
+    dependencies: ["Gatsby"],
     time: "2019"
   },
   {
     title: "Hangul quiz",
-    href: "https://asukachikaru.github.io/hangul-quiz/",
+    url: "https://asukachikaru.github.io/hangul-quiz/",
     repo: "https://github.com/AsukaCHikaru/hangul-quiz",
-    description: "Hangul memorizer game SPA.",
-    builtWith: ["Vue", "GSAP"],
+    desc: "Hangul memorizer game SPA.",
+    dependencies: ["Vue", "GSAP"],
     time: "2019"
   },
   {
     title: "CHIKA Music Awards 2019",
-    href: "http://chikamusicawards.asukachikaru.com",
+    url: "http://chikamusicawards.asukachikaru.com",
     repo: "https://github.com/AsukaCHikaru/chika-music-awards-2019",
-    description:
+    desc:
       "Exclusive site for my personal annual music awards, as rewind of my favorite music of the year.",
-    builtWith: ["React", "Reach Router", "TypeScript"],
+    dependencies: ["React", "Reach Router", "TypeScript"],
     time: "2020"
   }
 ];
@@ -59,5 +60,4 @@ export const contacts: Contact[] = [
   { name: "twitter", url: "https://twitter.com/asukachikaru" },
   { name: "e-mail", url: "asukachikaru@gmail.com" },
   { name: "linkedin", url: "https://www.linkedin.com/in/asuka-wang-538a64168" },
-  { name: "resume", url: "" }
 ];

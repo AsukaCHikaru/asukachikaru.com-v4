@@ -6,10 +6,10 @@ export type About = {
 
 export type Portfolio = {
   title: string;
-  href: string;
-  repo?: string;
-  description: string;
-  builtWith: string[];
+  url: string;
+  repo: string;
+  desc: string;
+  dependencies: string[];
   time: string;
 };
 
