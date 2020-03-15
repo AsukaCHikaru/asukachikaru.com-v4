@@ -6,21 +6,12 @@ export const about: About = {
   desc: "Front-end developer"
 };
 
-export const portfolios: Portfolio[] = [
-  {
-    title: "CHIKA Music Awards 2018",
-    url: "http://2018.chikamusicawards.asukachikaru.com",
-    repo: "",
-    desc:
-      "Exclusive site for my personal annual music awards, as rewind of my favorite music of the year.",
-    dependencies: ["React"],
-    time: "2018"
-  },
+export const portfolios: Portfolio[] = [  
   {
     title: "The work is undone.",
     url: "https://blog.asukachikaru.com",
     repo: "https://github.com/AsukaCHikaru/blog-v2",
-    desc: "My blog. Handmade, 0 blog host service or template used.",
+    desc: "My blog. No CMS service or design template used.",
     dependencies: ["Gatsby"],
     time: "2019"
   },
@@ -28,7 +19,7 @@ export const portfolios: Portfolio[] = [
     title: "Hangul Quiz",
     url: "https://asukachikaru.github.io/hangul-quiz/",
     repo: "https://github.com/AsukaCHikaru/hangul-quiz",
-    desc: "Hangul memorizer game SPA.",
+    desc: "Hangul memorizer single-page application with free mode and typing-test-like time mode, to help me memrize and recognize Hangul correctly and fast.",
     dependencies: ["Vue", "GSAP"],
     time: "2019"
   },
@@ -37,7 +28,7 @@ export const portfolios: Portfolio[] = [
     url: "http://chikamusicawards.asukachikaru.com",
     repo: "https://github.com/AsukaCHikaru/chika-music-awards-2019",
     desc:
-      "Exclusive site for my personal annual music awards, as rewind of my favorite music of the year.",
+      "Anuual side-project for my personal annual music awards, as rewind of my favorite music of the year and playground for interested tools or frameworks.",
     dependencies: ["React", "Reach Router", "TypeScript"],
     time: "2020"
   }
@@ -49,8 +40,7 @@ export const passions: string[] = [
   "game design",
   "gaming",
   "JavaScript",
-  "language learning (Spanish, Dutch)",
-  "music (Hip-hop, EDM)",
+  "language learning",
   "web development"
 ];
 
