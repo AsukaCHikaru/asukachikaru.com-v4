@@ -4,7 +4,7 @@ export const about: About = {
   name: "Asuka Wang",
   location: "Fukuoka, Japan",
   desc: "Front-end developer"
-}
+};
 
 export const portfolios: Portfolio[] = [
   {
@@ -19,13 +19,13 @@ export const portfolios: Portfolio[] = [
   {
     title: "The work is undone.",
     url: "https://blog.asukachikaru.com",
-    repo: "https://github.com/AsukaCHikaru/blog",
+    repo: "https://github.com/AsukaCHikaru/blog-v2",
     desc: "My blog. Handmade, 0 blog host service or template used.",
     dependencies: ["Gatsby"],
     time: "2019"
   },
   {
-    title: "Hangul quiz",
+    title: "Hangul Quiz",
     url: "https://asukachikaru.github.io/hangul-quiz/",
     repo: "https://github.com/AsukaCHikaru/hangul-quiz",
     desc: "Hangul memorizer game SPA.",
@@ -59,5 +59,5 @@ export const contacts: Contact[] = [
   { name: "github", url: "https://github.com/asukachikaru" },
   { name: "twitter", url: "https://twitter.com/asukachikaru" },
   { name: "e-mail", url: "asukachikaru@gmail.com" },
-  { name: "linkedin", url: "https://www.linkedin.com/in/asuka-wang-538a64168" },
+  { name: "linkedin", url: "https://www.linkedin.com/in/asuka-wang-538a64168" }
 ];
