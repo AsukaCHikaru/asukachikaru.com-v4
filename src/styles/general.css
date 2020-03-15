@@ -48,7 +48,7 @@ ul{
   padding: 0.5em 0;
 }
 .portfolio--item{
-  margin: 0 0 1em 0;
+  margin: 0 0 1.5em 0;
 }
 .portfolio--item-title{
   color: #000;
@@ -56,8 +56,9 @@ ul{
   font-weight: 600;
 }
 .portfolio--item-desc{
-  margin: 0.2em 0;
+  margin: 0.3em 0;
   color: #222;
+  line-height: 1.7em;
 }
 .portfolio--item-link_container{
   display: flex;
@@ -69,7 +70,7 @@ ul{
   font-weight: 400;
 }
 .portfolio--item-dependencies{
-  margin: 0 0.5em;
+  margin: 0 0.5em 0 auto;
   display: flex;
 }
 .portfolio--item-dependecy{
